@@ -1,0 +1,514 @@
+
+/* Designed the page with 768px*/
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+
+    .cta {
+        font-size: 16px;
+        padding: 5px 40px;
+    }
+
+    .cta-send {
+        font-size: 16px;
+        padding: 5px 40px;
+    }
+
+    .fa-search {
+        font-size: 170%;
+    }
+
+    input[id=search] {
+        width: 40%;
+    }
+
+    .header-container input[id=search] {    
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    .item-icons i {
+        font-size: 120%;
+        padding: 0px 5px;
+        margin: 50px 0px 0px 0px;
+        
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px 20px;
+        font-size: 90%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        min-height: 150px;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 20px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 10px;
+    }
+
+    .social-links li {
+       margin-right: 15px;
+    }
+
+
+    .welcome{
+        height: 65vh; 
+    }
+
+    .position-welcome {
+        top: 60px; 
+    }
+
+    .position-welcome h1 {
+        font-size: 40px;
+    }
+
+    .position-welcome ul {
+        margin-bottom: 40px;
+    }
+
+    .position-welcome li {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .featured {
+        display: grid;
+        grid-gap: 75px;
+        max-width: 600px;
+    }
+
+    .category {
+        margin: 30px 90px 0px;
+    }
+    
+    .category li {
+        padding: 5px 20px;
+        font-size: 90%;
+    }
+
+    /* ABOUT US*/
+
+    .our-mission {
+        flex-direction: row;
+    }
+
+    .our-mission p {
+        font-size: 85%;
+    }
+    
+    .our-mission-grid {
+       width: 40%;
+    }
+    
+    .our-mission img {
+        width: 40%;
+        max-height: 50vh;
+        margin-top: 70px;
+    }
+
+    .contact h3 {
+        font-size: 115%;
+    }
+
+    .contact-info {
+        margin: 20px 5px;
+    }
+
+    input[id=name],
+    input[id=number],
+    input[id=email] {
+        width: 60%;
+        padding: 7px 50px;
+    }
+
+    textarea {
+        width:73%;
+    }
+
+
+    /* PRODUCT */ 
+
+    .cta-add-product {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .product-main {
+        flex-direction: row;
+        max-width: 800px;
+    }
+
+    .product-img {
+        display: flex;
+        min-width: 375x;
+        margin-left: 40px;
+    }
+    
+
+    .product-info p{
+        margin-top: 10px;
+    }
+        
+    .cta-column {
+        margin-top: 100px;
+    }
+    
+    .cta-column a {
+        margin-top: 15px;
+    }
+
+    /* SHOPPING CART*/
+
+    .cta-to-checkout {
+        min-width: 645px;
+    }
+
+    .shopping-cart-total-right{
+        margin-left: 520px;
+    }
+
+    /* CHECK OUT LOG IN */
+
+    .cta-log-in {
+        padding: 5px 135px;
+    }
+
+    .log-in-cta{
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+    
+    
+    .cta-register {
+        padding: 5px 120px;   
+    }
+
+    .header-checkout {
+        width: 70%;
+    }
+    
+    .header-checkout-number li {
+        margin: 5px 50px;
+    }
+
+    /* CHECK OUT ADDRESS / CHECK OUT PAYMENT*/
+    .cta-add {
+        padding: 10px 115px;
+    }
+    
+    .cta-continue { 
+        padding: 10px 130px;   
+    }
+    
+    .delivery-address,
+    .payment-method {
+        margin: 30px 50px;
+    }
+
+    .payment-method-flex p {
+        margin-top: 20px;
+        font-size: 110%;
+    }
+
+
+}
+
+/* Designed the page with 1280px*/
+@media only screen and (min-width: 1024px) {
+
+    .cta {
+        font-size: 20px;
+        padding: 5px 55px;
+    }
+
+    .cta-send {
+        font-size: 20px;
+        padding: 5px 55px;
+    }
+
+    .fa-search {
+        font-size: 170%;
+    }
+
+    input[id=search] {
+        width: 50%;
+    }
+
+    .header-container input[id=search] {    
+        margin-top: 75px;
+        margin-left: 75px;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    .item-icons i {
+        font-size: 140%;
+        padding: 0px 5px;
+        margin: 75px 0px 0px 20px;
+        
+    }
+
+    /* NAVIGATION */
+
+    nav {
+        margin: -10px 50px 15px 50px;
+    }
+    nav li {
+        display: inline-block;
+        font-size: 100%;
+    }
+
+    /* NAV SECONDARY */ 
+
+    .nav-secondary {
+        margin-left: 50px;
+    }
+
+    .nav-secondary li{
+        display: inline-block;
+        font-size: 80%;
+    }
+
+     /* FOOTER */
+
+     footer {
+        min-height: 150px;
+    }
+
+     .footer-nav {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 40px;
+    }
+
+    .footer-nav li {
+        margin-right: 20px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .social-links li {
+        margin-right: 30px;
+     }
+
+    .welcome{
+        height: 90vh; 
+    }
+
+    .position-welcome {
+        top: 75px; 
+    }
+
+    .position-welcome h1 {
+        font-size: 48px;
+    }
+
+    .position-welcome ul {
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    .position-welcome li {
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .featured {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 60px;
+        max-width: 900px;
+    }
+
+    .category {
+        margin: 30px 185px 0px;
+    }
+    
+    .category li {
+        padding: 5px 40px;
+        font-size: 100%;
+    }
+
+    /* ABOUT US */
+
+    .about {
+        margin: 20px 45px;
+        padding: 20px 10px;
+    }
+
+    .our-mission {
+        flex-direction: row;
+    }
+
+    .our-mission p {
+        font-size: 100%;
+    }
+    
+    .our-mission-grid {
+       width: 40%;
+    }
+    
+    .our-mission img {
+        width: 40%;
+        max-height: 55vh;
+        margin-top: 70px;
+    }
+
+    /* CONTACT */
+
+    .contact h3 {
+        font-size: 130%;
+    }
+
+    .contact-info {
+        margin: 20px 20px;
+    }
+
+    input[id=name],
+    input[id=number],
+    input[id=email] {
+        width: 80%;
+        padding: 10px 50px;
+    }
+
+    textarea {
+        width: 89%;
+      
+    }
+
+    /* PRODUCT */ 
+
+    .cta-size {
+        font-size: 20px;
+        padding: 3px 55px;
+    }
+    
+    .cta-add-product {
+        font-size: 20px;
+        padding: 3px 30px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .product-main {
+        flex-direction: row;
+    }
+
+    .product-info p{
+        margin-top: 10px;
+    }
+        
+    .cta-column {
+        margin-top: 100px;
+    }
+    
+    .cta-column a {
+        margin-top: 15px;
+    }
+
+     /* SHOPPING CART*/
+
+     .cta-to-checkout {
+        max-height:25px;
+        padding: 5px 15px;
+    }
+
+     .shopping-cart {
+        display: grid;
+        grid-template-areas: 
+        'shopping-cart-product shopping-cart-total'
+        'shopping-cart-delivery shopping-cart-discount'
+        'shopping-cart-card shopping-cart-nothing';
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin: 10px 50px;
+     }
+
+      /* CHECK OUT LOG IN */
+
+    .cta-log-in {
+        padding: 10px 195px;
+    }
+
+    .log-in-cta{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .cta-register {
+        padding: 10px 190px;   
+    }
+
+    .register-cta {
+        margin-top: 40px;
+    }
+
+    .header-checkout {
+        width: 56%;
+    }
+    
+    .header-checkout-number li {
+        margin: 5px 80px;
+    }
+
+    .log-in-grid p{
+        font-size: 60%;
+        margin-top: 15px;
+    }
+
+    input[id=password],
+    input[id=email-log-in] {
+        width: 80%;
+        padding: 10px 10px;
+        margin-left: 50px;
+    }
+
+    /* CHECK OUT ADDRESS / CHECK OUT PAYMENT*/
+
+    .cta-add {
+        padding: 10px 170px;
+    }
+    
+    .cta-continue { 
+        padding: 10px 190px;   
+    }
+    
+    .delivery-address,
+    .payment-method {
+        margin: 30px 70px;
+    }
+
+    .payment-method-flex p {
+        margin-top: 25px;
+        font-size: 120%;
+    }
+
+    /* COMPLETE*/
+
+    .complete-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .complete-box {
+        margin: 20px;
+    }
+
+}
+
+

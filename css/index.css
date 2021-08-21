@@ -1,0 +1,39 @@
+/* ----------------------------- */
+/* HOME PAGE */
+/* ----------------------------- */
+
+.welcome{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(34, 34, 34, 0.7)), url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 45vh; 
+    position: relative;
+}
+
+.position-welcome {
+    position: absolute;
+    left: 125px;
+    top: 45px;
+    text-align: center; 
+}
+
+.position-welcome h1 {
+    font-size: 32px;
+    color: white;
+    margin-right: 45px;
+    margin-bottom: 15px;
+    
+}
+
+.position-welcome ul {
+    margin-bottom: 20px;
+}
+
+
+.position-welcome li {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+    list-style: none;
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+/* ----------------------------- */
+/* NAVIGATION */
+/* ----------------------------- */
+
+.nav-secondary {
+    margin-left: 35px;
+}
+
+.nav-secondary li{
+    display: inline-block;
+    font-size: 70%;
+}
+
+.nav-secondary a{
+    text-decoration: none; 
+    color: rgb(87, 87, 87);
+}
+
+.nav-secondary a:hover,
+.nav-secondary a:active {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+/* ----------------------------- */
+/* CATEGORY}*/
+/* ----------------------------- */
+
+.category {
+    margin: 30px 35px 0px;
+    text-align: center;
+    background-color: #bdcfda;
+    border:1px solid #000;
+}
+
+.category li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+}

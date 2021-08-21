@@ -1,0 +1,59 @@
+/* BUTTONS */
+
+.cta-add {
+    background-color:#ffffff;
+    color: #cc7229;
+    border-radius: 5px;
+    border: 1px solid #cc7229;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 60px;
+}
+
+.cta-continue {
+    background-color:#cc7229;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 70px;   
+}
+
+.payment h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.payment-method {
+    background-color: rgb(201, 201, 201); 
+    margin: 40px;
+    padding: 10px 0px;
+}
+
+.payment-method h3,
+.payment-method p {
+    margin-left: 20px;
+}
+
+.payment-method-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.payment-method-flex p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.payment-method img {
+    width: 12%;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.buttons {
+    width: 90%;
+    margin: 10px auto;
+    margin-right: 10px;
+}

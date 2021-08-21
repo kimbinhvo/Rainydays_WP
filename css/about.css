@@ -1,0 +1,36 @@
+/* ----------------------------- */
+/* ABOUT */
+/* ----------------------------- */
+
+.about {
+    min-height: 15vh;
+    text-align: center;
+    margin: 35px;
+    background-color: #bdcfda;
+    padding: 20px 10px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-mission p {
+    font-size: 70%;
+    padding: 10px 0px;
+}
+
+.our-mission-grid {
+   margin: 20px auto;
+   width: 80%;
+}
+
+.our-mission img {
+    border-radius: 10%;
+    width: 80%;
+    margin: 20px auto 30px ;
+}

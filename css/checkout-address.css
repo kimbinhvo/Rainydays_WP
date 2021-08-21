@@ -1,0 +1,50 @@
+/* BUTTONS */
+
+.cta-add {
+    background-color:#ffffff;
+    color: #cc7229;
+    border-radius: 5px;
+    border: 1px solid #cc7229;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 60px;
+}
+
+.cta-continue {
+    background-color:#cc7229;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 70px;   
+}
+
+
+
+.address h1 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.delivery-address {
+    background-color: rgb(201, 201, 201); 
+    margin: 30px;
+    padding:25px 0px;
+}
+
+.delivery-address h3,
+.delivery-address p {
+    margin-left: 20px;
+}
+
+.buttons {
+    width: 90%;
+    margin: 10px auto;
+    margin-right: 10px;
+   
+}
+
+footer {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,91 @@
+/* ----------------------------- */
+/* CONTACT */
+/* ----------------------------- */
+
+/* BUTTONS */
+
+.cta-send {
+    background-color:#cc7229;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 30px;
+    text-transform: uppercase;
+}
+
+.cta-send:hover,
+.cta-send:active {
+    background-color:#b85a08;
+}
+
+.contact {
+    min-height: 50vh;
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-info {
+    margin: 30px 5px;
+    background-color: #bdcfda;
+}
+
+.contact-info li {
+    list-style: none;
+    padding: 5px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-areas: 'contact-form-1 contact-form-2'
+                         'form-error'; 
+    grid-gap: 10px;
+    margin: 50px auto 10px; 
+}
+
+.contact-form-1 {
+    text-align: center;
+}
+
+input[id=name],
+input[id=number],
+input[id=email] {
+    width: 40%;
+    padding: 5px 50px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 90%;
+    margin-top: 1px;
+}
+
+.success {
+    background: green;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin:20px;
+    font-size: 80%;
+}
+
+.fail {
+    background: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin:20px;
+    font-size: 80%;
+}
+
+

@@ -1,0 +1,139 @@
+/* BUTTONS */
+.cta-log-in {
+    background-color:#cc7229;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 83px;
+}
+
+.log-in-cta{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.cta-register {
+    background-color:#ffffff;
+    color: #cc7229;
+    border-radius: 5px;
+    border: 1px solid #cc7229;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 70px;   
+}
+
+.register-cta {
+    margin-top: 35px;
+}
+
+.cta-log-in:hover,
+.cta-log-in:active {
+    background-color:#b85a08;
+}
+
+/* HEADER */
+
+.header-checkout {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item-logo{
+    flex: 5;
+}
+
+.item-arrow-left,
+.item-arrow-right {
+    color:#e67e22;
+    font-size: 150%;
+    margin-top: 20px;
+    flex:1;
+}
+
+.header-checkout-line{
+    width: 100%; 
+    height: 3px;
+    background-color: #70846c;
+    margin-bottom: 30px;
+}
+
+
+.header-checkout-number {
+    width: 100%;
+    text-align: center;
+}
+
+.header-checkout-number li {
+    display: inline;
+    margin: 5px 25px;
+    border-radius: 30%;
+    background: #e67e22;;
+    border: 10px solid #e67e22;
+}
+
+.current {
+    color: white;
+    font-weight: bold;;
+    text-decoration: none;
+}
+
+.header-checkout-text {
+    display: inline-block;
+}
+
+.header-checkout-text a {
+    text-decoration: none;
+    color:#052441;
+}
+
+.header-checkout-text p {
+    margin-top: 10px;
+    font-size: 50%;
+}
+
+/* LOG IN */
+
+.log-in {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.log-in-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.log-in-grid p{
+    font-size: 50%;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+input[id=password],
+input[id=email-log-in] {
+    width: 80%;
+    padding: 5px 5px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+label[id=password],
+label[id=email-log-in] {
+    font-size: 90%;
+}
+
+
+
