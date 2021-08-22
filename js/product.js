@@ -1,6 +1,38 @@
 const productArray = [];
 const productInfo = document.querySelector(".product-info"); 
-let cartArray = [];
+const productMain = document.querySelector(".product-main"); 
+
+const queryString = document.location.search;
+console.log(queryString);
+const params = new URLSearchParams(queryString);
+
+const id = params.get("id");
+console.log(id);
+
+const url = "https://www.kimbinhvo.one/wp-json/wc/store/products/" + id;
+
+async function fetchJackets() {
+    try {
+        const response = await fetch(url);
+        const product = await response.json();
+        console.log(product);
+
+
+        productInfo.innerHTML += `  <p>   Name: ${product.name}<p>
+                                    <p>   Price: $${product.prices.price}<p>
+                                    <p>   Type: ${product.type}<p>
+                                    <a class="cta-go-to-cart" href="shoppingcart.html?id=${product.id}"> Go to check out</a> 
+                                        </div>`;  
+
+    } catch(error) {
+        console.log(error);
+    }
+}
+
+fetchJackets();
+
+
+/* let cartArray = [];
 
 var jacket = {
     brand:"Gant",
@@ -23,9 +55,9 @@ function addJacket(){
                                     <button class="cta-add-product"> Add product to cart</button>`; 
                                             
     }
-}
+} 
 
-addJacket();
+addJacket(); 
 
 const buttons = document.querySelectorAll("button");
 buttons.forEach(function(button){
@@ -39,7 +71,7 @@ buttons.forEach(function(button){
                                         </div>`;
         }
     }
-})
+}) */
 
 
 
@@ -47,5 +79,4 @@ buttons.forEach(function(button){
 console.log(jacket.price);
 console.log(jacket.color);
 console.log(jacket.size); */ 
-
 
