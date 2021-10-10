@@ -5,7 +5,8 @@
     border-radius: 5px;
     font-size: 12px;
     text-decoration: none;
-    padding: 5px 83px;
+    padding: 5px 35%;
+   
 }
 
 .log-in-cta{
@@ -20,7 +21,7 @@
     border: 1px solid #cc7229;
     font-size: 12px;
     text-decoration: none;
-    padding: 5px 70px;   
+    padding: 5px 25%;   
 }
 
 .register-cta {

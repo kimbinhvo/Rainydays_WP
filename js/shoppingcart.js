@@ -22,9 +22,9 @@ async function fetchJackets() {
                                     <p>   Type: ${product.type}<p>
                                         </div>`; 
                                         
-         productInfo2.innerHTML += `    <p>   ${product.prices.price}<p>
-                                        <p>   Free <p>
-                                        <p class="bold">${product.prices.price} $USD</p>
+         productInfo2.innerHTML += `    <p>  Sub total:  ${product.prices.price}<p>
+                                        <p>  Shopping: Free <p>
+                                        <p class="bold"> Total: ${product.prices.price} $USD</p>
                                         </div>`; 
 
         

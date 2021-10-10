@@ -10,30 +10,31 @@
     padding: 5px 20px;
     text-transform: uppercase;
     min-width: 375px;
-    margin-left: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 /* SHOPPING CART */
 
+.shopping-cart {
+    margin: auto;
+    text-align: center;
+}
 .shopping-cart h3{
     flex-basis:100%;
     margin-top: 20px;
-    margin-left: 30px;
  }
 
 .shopping-cart-product,
 .shopping-cart-total {
-    display: flex;
-    flex-wrap: wrap;
     background-color: rgb(201, 201, 201);
+    padding: 10px;
     margin-top:30px;
 }
 
 .shopping-cart-product img{
-    width: 30%;
-    margin: 30px;
+    width: 150px;
+    margin-top: 30px;
  }
 
  .shopping-cart-product-info {
@@ -48,17 +49,15 @@
 .shopping-cart-discount p,
 .shopping-cart-card img{
     margin-top: 10px;
-    margin-left: 30px;
 }
 
-.shopping-cart-total-left,
 .shopping-cart-total-right{
     margin-top: 5px;
     padding-bottom: 20px;
 }
 
 .shopping-cart-total-right{
-    margin-left: 250px;
+    margin:auto;
 }
 
 .shopping-cart-delivery,

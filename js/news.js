@@ -16,3 +16,14 @@ async function getProducts(url){
 }
 
 getProducts(baseUrl);
+
+
+        posts.forEach(function(post){
+            i++;
+                postContainer.innerHTML += `<div class="products-restaurants"> 
+                <img src="${post._embedded['wp:featuredmedia']['0'].source_url}">        
+                <h3> ${post.title.rendered} </h3>
+                <p> ${post.excerpt.rendered} </p>
+                <a class="cta-product-restaurants" href="specific.html?id=${post.id}">Read More</a>
+            </div>`; 
+        })

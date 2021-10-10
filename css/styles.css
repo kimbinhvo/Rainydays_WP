@@ -68,6 +68,11 @@ input[id=search] {
     border-radius: 3px;
     border: 1px solid#646464;
     text-align: center;
+    display: none;
+}
+
+.item-search button {
+    margin-top: 30px;
 }
 
 input[id=search]:hover,
@@ -78,7 +83,6 @@ input[id=search]:active  {
 .item-search{
     flex: 1;
 }
-
 
 .header-container input[id=search] {    
     margin-top: 30px;
